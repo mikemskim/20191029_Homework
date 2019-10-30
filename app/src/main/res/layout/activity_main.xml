@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
+    android:padding="20dp"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -22,7 +22,7 @@
             android:layout_marginRight="10dp"
             android:text="터칭 이용하기"
             android:textSize="16dp"
-            android:textColor="#857FFF"/>
+            android:textColor="#86B3FF"/>
 
     </LinearLayout>
 
