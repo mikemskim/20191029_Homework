@@ -18,7 +18,9 @@ class MainActivity : AppCompatActivity() {
             if (id == "admin" && pwd == "1234") {
                 message = "관리자로 로그인하였습니다."
             }
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+            val printStr = "ID는 ${id.toUpperCase()}이고 PWD는 ${pwd} 입니다."
+            Toast.makeText(this, printStr, Toast.LENGTH_SHORT).show()
         }
     }
 }
